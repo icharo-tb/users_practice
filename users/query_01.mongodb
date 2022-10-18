@@ -1,0 +1,4 @@
+use('Fake_Users');
+
+
+db.users.find({'password':{'$exists': true}});
