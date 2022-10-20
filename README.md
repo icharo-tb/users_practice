@@ -9,3 +9,5 @@
   - We'll add salt to every hash operation as well.
 - Get the JSON Dummy data as well as encrypted passwords (just for the sake of practice).
 - Have fun while learning!
+
+> All the data, codes and scripts is stored in **Master** branch
