@@ -42,9 +42,4 @@ def hash_password(password=None, password_gen=False):
     return hashed
 
 if __name__ == '__main__':
-    password = input('Enter password or type True: ')
-    
-    if password in ['True','true']:
-        print(hash_password(password_gen=True))
-    else:
-        print(hash_password(password))
+    hash_password(password_gen=True)
